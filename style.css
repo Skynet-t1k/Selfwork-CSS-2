@@ -16,6 +16,7 @@ h3 {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .centerlist {
@@ -66,7 +67,7 @@ main {
 article { 
   margin:10px;
   padding: 5px;
-  width: 500px;
+  width: 60%;
   border: 2px solid black;
 }
 
@@ -77,4 +78,13 @@ article > img {
 
 header {
   padding-left: 250px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  background-color: aqua;
 }
